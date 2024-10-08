@@ -1,0 +1,144 @@
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(25, 0, 255);
+    color: #fff;
+    height: 400px;
+}
+
+nav {
+    margin-top: 0;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    flex: 1 1 auto;
+}
+nav ul li a {
+    color: #ff9900;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 20px;
+}
+
+.search1 {
+    display: flex;
+    margin-top: -7px;
+    justify-content: end;
+    width: 80%;
+    
+}
+
+.search1 input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    height: 10px;
+}
+
+.bt{
+    margin: 0px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0 5px 5px 0;
+    width: 40px;
+    height: 30px;
+}
+
+.search1 button:hover {
+    background-color: #ff9900;
+}
+
+.search1 {
+    justify-content: center;
+}
+
+.img1 {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+}
+
+div img {
+    width: 300px;
+    height: 300px;
+}
+.sobre {
+    width: 1000px;
+    height: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    display: flex;
+    margin: 20px;
+}
+
+.paragrafo {
+    margin: 20px;
+}
+
+.link {
+    margin: 15px;
+}
+
+div button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+div button a {
+    text-decoration: none;
+    color: black;
+}
+
+div button:hover {
+    background-color: aqua;
+}
+
+/* Pagina de login */
+
+.body2 {
+    background-color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.loginn {
+    text-align: center;
+    align-items: center;
+}
+ 
